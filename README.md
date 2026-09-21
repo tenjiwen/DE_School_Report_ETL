@@ -1,10 +1,13 @@
-# DE_School_Report_ETL
+# DE\_School\_Report\_ETL
+
 School Report ETL
 
-Source file: prelim_science_students_marks.csv (100 students, 7 subjects, wide format). This is the only file provided. You split it and build the layers yourself — nothing below is pre-built for you.
+Source file: prelim\_science\_students\_marks.csv (100 students, 7 subjects, wide format). This is the only file provided. You split it and build the layers yourself — nothing below is pre-built for you.
 
-Goal
-----
+
+
+## Goal
+
 Take the flat CSV and produce a Bronze → Silver → Gold warehouse, split by grade band (10 / 11 / 12), following the Medallion Architecture.
 
 What each layer must do:
@@ -15,14 +18,15 @@ No cleaning, no casting, no new columns — copy values as-is.
 Purpose: preserve exactly what was received, per grade, so any downstream bug can be traced back to unmodified source data.
 
 **Silver — cleaned, typed, conformed**
-Trim/title-case student_name.
+Trim/title-case student\_name.
 Cast all 7 subject marks to integers.
-Add grade_band (derived from grade, e.g. "10A" → "10").
-Derive subjects_failed = count of subjects with mark < 40.
-Derive overall_result = "FAIL" if subjects_failed > 0 else "PASS".
+Add grade\_band (derived from grade, e.g. "10A" → "10").
+Derive subjects\_failed = count of subjects with mark < 40.
+Derive overall\_result = "FAIL" if subjects\_failed > 0 else "PASS".
 Still split by grade band, one clean table per grade.
 
 **Gold — aggregated, reporting-ready**
-grade_summary: one row per grade band — student count, average of averages, pass count, fail count, pass rate %.
-subject_performance: one row per grade band × subject — average, min, max mark, and fail count for that subject.
+grade\_summary: one row per grade band — student count, average of averages, pass count, fail count, pass rate %.
+subject\_performance: one row per grade band × subject — average, min, max mark, and fail count for that subject.
 No row-level student detail at this layer — only aggregates.
+
