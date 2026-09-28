@@ -1,0 +1,25 @@
+student_id;student_name;grade;mathematics_mark;physical_science_mark;life_sciences_mark;english_home_language_mark;life_orientation_mark;information_technology_mark;agricultural_science_mark;total_mark;average_mark
+STU0005;Andile Zwane;11A;7;25;59;58;64;57;53;323;46.1
+STU0022;Palesa Dlamini;11B;43;51;19;72;75;47;51;358;51.1
+STU0024;Nthabiseng Radebe;11B;64;28;24;59;48;39;53;315;45.0
+STU0031;Bongani Sithole;11A;42;44;36;51;50;33;58;314;44.9
+STU0032;Themba Cele;11B;62;38;83;74;70;52;48;427;61.0
+STU0037;Given Zulu;11A;52;62;45;58;57;52;64;390;55.7
+STU0040;Bongani Zwane;11B;31;20;71;18;78;77;73;368;52.6
+STU0044;Thabo Radebe;11A;59;46;75;45;58;26;60;369;52.7
+STU0049;Nthabiseng Sithole;11B;6;0;16;36;78;35;49;220;31.4
+STU0057;Kgomotso Mokwena;11B;26;82;21;68;45;55;87;384;54.9
+STU0064;Fikile Mabena;11A;13;32;59;65;61;23;60;313;44.7
+STU0068;Ntando Cele;11A;19;11;60;44;81;48;63;326;46.6
+STU0069;Precious Nkosi;11A;53;53;49;46;68;69;45;383;54.7
+STU0070;Mbali Zwane;11A;0;72;44;51;76;41;74;358;51.1
+STU0072;Katlego Mabaso;11B;16;13;83;55;89;55;56;367;52.4
+STU0078;Ofentse Sithole;11A;46;41;43;61;74;50;33;348;49.7
+STU0082;Katlego Tshabalala;11B;20;25;69;63;57;45;40;319;45.6
+STU0084;Sifiso Sibiya;11B;33;59;54;43;55;45;54;343;49.0
+STU0090;Ntando Molefe;11B;31;23;52;63;82;39;47;337;48.1
+STU0094;Zinhle Molefe;11B;44;62;42;67;56;27;47;345;49.3
+STU0096;Naledi Radebe;11A;0;31;54;37;62;53;43;280;40.0
+STU0097;Zanele Zwane;11B;24;29;56;51;56;53;52;321;45.9
+STU0098;Ayanda Dlamini;11B;38;88;32;44;94;43;37;376;53.7
+STU0099;Buhle Nkosi;11B;41;31;37;64;60;75;80;388;55.4
